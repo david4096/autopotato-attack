@@ -4,7 +4,8 @@ workflows:
      name: autopotato-attack
      primaryDescriptorPath: /potato.cwl
      authors:
-       - role: Institute
+       - name: person
+         role: Institute
          affiliation: UCSC
      publish: True
      testParameterFiles:
