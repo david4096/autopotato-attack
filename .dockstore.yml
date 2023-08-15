@@ -3,9 +3,6 @@ workflows:
    - subclass: CWL
      name: autopotato-attack
      primaryDescriptorPath: /potato.cwl
-     authors:
-       - role: Institute
-         affiliation: UCSC
      publish: True
      testParameterFiles:
          - /test/dockstore.cwl.json
